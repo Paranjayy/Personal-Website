@@ -27,6 +27,9 @@ jobs:
         with:
           version: 9
 
+      - name: Install pnpm (fallback)
+        run: npm install -g pnpm
+
       - name: Install deps
         run: pnpm install --frozen-lockfile
 
