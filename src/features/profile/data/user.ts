@@ -1,23 +1,24 @@
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
-  firstName: "Your",
-  lastName: "Name",
-  displayName: "Your Name",
-  username: "username",
-  gender: "unspecified",
-  pronouns: "your pronouns",
-  bio: "A short one-line bio about you.",
+  firstName: "Paranjay",
+  lastName: "Khachar",
+  displayName: "Paranjay Khachar",
+  username: "paranjayy",
+  gender: "male",
+  pronouns: "he/him",
+  dateOfBirth: "2005-12-24",
+  bio: "Design + code. Building useful things.",
   flipSentences: [
     "Building things with care.",
     "Design Engineer",
     "Open Source Enthusiast",
   ],
-  address: "City, Country",
+  address: "India",
   phoneNumber: "KzEyMzQ1Njc4OTA=", // +1234567890 (base64)
   email: "aGVsbG9AZXhhbXBsZS5jb20=", // hello@example.com (base64)
-  website: "https://example.com",
-  jobTitle: "Job Title",
+  website: "https://paranjay.dev",
+  jobTitle: "Design Engineer",
   jobs: [
     {
       title: "Senior Frontend Developer & UI Design Lead",
@@ -37,7 +38,7 @@ This starter template showcases a minimal portfolio, component registry, and blo
 
 Let's connect and build something great.
   `,
-  avatar: "https://placehold.co/128x128/png",
+  avatar: "/pfp.jpeg",
   ogImage: "https://placehold.co/1200x630/png",
   namePronunciationUrl: "",
   keywords: [

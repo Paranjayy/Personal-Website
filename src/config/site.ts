@@ -29,8 +29,8 @@ export const MAIN_NAV: NavItem[] = [
   },
 ];
 
-export const SOURCE_CODE_GITHUB_REPO = "your-handle/your-repo";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/your-handle/your-repo";
+export const SOURCE_CODE_GITHUB_REPO = "Paranjayy/personal-website";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/Paranjayy/personal-website";
 
 export const UTM_PARAMS = {
   utm_source: "example.com",

@@ -20,15 +20,17 @@ export function ProfileHeader() {
           />
         </div>
 
-        {/* Placeholder flag */}
+        {/* India flag */}
         <svg
           className="absolute top-0 -left-px h-8 sm:h-9"
           viewBox="0 0 30 20"
           xmlns="http://www.w3.org/2000/svg"
-          aria-label="Placeholder flag"
+          aria-label="India flag"
         >
-          <rect width="30" height="20" fill="#E5E7EB" />
-          <rect x="5" y="6" width="20" height="8" fill="#9CA3AF" />
+          <rect width="30" height="20" fill="#FF9933" />
+          <rect y="6.67" width="30" height="6.66" fill="#FFFFFF" />
+          <rect y="13.33" width="30" height="6.67" fill="#138808" />
+          <circle cx="15" cy="10" r="2.2" fill="#000080" />
         </svg>
       </div>
 

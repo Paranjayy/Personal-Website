@@ -9,6 +9,8 @@ export type User = {
   gender: string;
   /** e.g. "he/him", "she/her", "they/them" */
   pronouns: string;
+  /** ISO date string YYYY-MM-DD for computing age */
+  dateOfBirth?: string;
   bio: string;
   /** Short phrases rotated in UI (e.g., homepage flip effect) */
   flipSentences: string[];

@@ -1,4 +1,4 @@
-import { GlobeIcon, MapPinIcon, MarsIcon, VenusIcon } from "lucide-react";
+import { GlobeIcon, MapPinIcon, MarsIcon, VenusIcon, CalendarIcon } from "lucide-react";
 
 import { USER } from "@/features/profile/data/user";
 import { urlToName } from "@/utils/url";
@@ -42,7 +42,27 @@ export function Overview() {
           icon={USER.gender === "male" ? MarsIcon : VenusIcon}
           content={USER.pronouns}
         />
+
+        {USER.dateOfBirth && (
+          <IntroItem
+            icon={CalendarIcon}
+            content={`${getAge(USER.dateOfBirth)} years old`}
+          />
+        )}
       </PanelContent>
     </Panel>
   );
+}
+
+function getAge(dateOfBirth: string) {
+  try {
+    const dob = new Date(dateOfBirth);
+    const now = new Date();
+    let age = now.getFullYear() - dob.getFullYear();
+    const m = now.getMonth() - dob.getMonth();
+    if (m < 0 || (m === 0 && now.getDate() < dob.getDate())) age--;
+    return age;
+  } catch {
+    return "";
+  }
 }
