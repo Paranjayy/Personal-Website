@@ -12,3 +12,5 @@
 - hiding mobile number with showing to only trusted emails or pass ig to prevent that getting to everyone or privacy auth and its loopholes be aware of lamao and many other ideas
 
 - adding nice carousel/masonry views for the inspiring photos and many thiniges overall
+
+- socials page to kinda replace gravatar & linkt.ree & nice notes and many overall thingies consolidating 
