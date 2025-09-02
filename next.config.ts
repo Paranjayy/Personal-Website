@@ -1,10 +1,17 @@
 import type { NextConfig } from "next";
 
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+const repoName = "Personal-Website";
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   transpilePackages: ["next-mdx-remote"],
   allowedDevOrigins: ["localhost"],
   devIndicators: false,
+  output: "export",
+  distDir: "out",
+  assetPrefix: isGitHubPages ? `/${repoName}/` : undefined,
+  basePath: isGitHubPages ? `/${repoName}` : undefined,
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "placehold.co", port: "" },
