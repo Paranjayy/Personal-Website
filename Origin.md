@@ -10,3 +10,5 @@
 # Cool ideas
 
 - hiding mobile number with showing to only trusted emails or pass ig to prevent that getting to everyone or privacy auth and its loopholes be aware of lamao and many other ideas
+
+- adding nice carousel/masonry views for the inspiring photos and many thiniges overall

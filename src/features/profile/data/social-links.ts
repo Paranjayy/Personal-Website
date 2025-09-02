@@ -27,7 +27,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     icon: "https://placehold.co/48x48/png",
-    title: "Zalo",
+    title: "Your-Business-Platform",
     description: "your-business",
     href: "https://zalo.me/your-id",
   },

@@ -174,6 +174,20 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Tools", "AI"],
     theme: true,
   },
+  {
+    key: "cursor",
+    title: "Cursor",
+    href: "https://cursor.com/",
+    categories: ["Tools", "AI"],
+    theme: true,
+  },
+  {
+    key: "v0",
+    title: "v0: vibe coder who's ready to break prod",
+    href: "https://v0.app/",
+    categories: ["Tools", "AI"],
+    theme: true,
+  },
   // {
   //   key: "zalo-mini-app",
   //   title: "Zalo Mini App",

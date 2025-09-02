@@ -20,17 +20,15 @@ export function ProfileHeader() {
           />
         </div>
 
-        {/* Flag of Viet Nam */}
+        {/* Placeholder flag */}
         <svg
           className="absolute top-0 -left-px h-8 sm:h-9"
           viewBox="0 0 30 20"
           xmlns="http://www.w3.org/2000/svg"
+          aria-label="Placeholder flag"
         >
-          <rect width="30" height="20" fill="#F00" />
-          <polygon
-            points="15,4 11.47,14.85 20.71,8.15 9.29,8.15 18.53,14.85"
-            fill="#FFEB00"
-          />
+          <rect width="30" height="20" fill="#E5E7EB" />
+          <rect x="5" y="6" width="20" height="8" fill="#9CA3AF" />
         </svg>
       </div>
 
