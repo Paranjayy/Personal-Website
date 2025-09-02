@@ -58,6 +58,7 @@ export default function Page() {
         <Certifications />
         <Separator />
 
+        {/* Placeholder brand section. Replace with your own content or remove. */}
         <Brand />
         <Separator />
       </div>

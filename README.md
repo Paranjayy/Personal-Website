@@ -1,21 +1,13 @@
-# [chanhdai.com](https://chanhdai.com)
+# Portfolio Starter
 
-A minimal portfolio, component registry, and blog to showcase my work as a Design Engineer.
+A minimal portfolio, component registry, and blog template. Replace placeholders with your own information.
 
-Check out the live site: [chanhdai.com](https://chanhdai.com)
-
-<a href="https://frogdr.com/chanhdai.com?via=ncdai&utm_source=chanhdai.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://frogdr.com/chanhdai.com/badge-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://frogdr.com/chanhdai.com/badge-white.svg">
-    <img src="https://frogdr.com/chanhdai.com/badge-white.svg" alt="Monitor your Domain Rating" style="width: auto; height: 40px">
-  </picture>
-</a>
+Demo placeholder screenshots:
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://assets.chanhdai.com/images/screenshot-desktop-dark.webp">
-  <source media="(prefers-color-scheme: light)" srcset="https://assets.chanhdai.com/images/screenshot-desktop-light.webp">
-  <img src="https://assets.chanhdai.com/images/screenshot-desktop-light.webp" alt="Screenshot">
+  <source media="(prefers-color-scheme: dark)" srcset="https://placehold.co/1200x675/111111/FFFFFF/png?text=Dark+Screenshot">
+  <source media="(prefers-color-scheme: light)" srcset="https://placehold.co/1200x675/F8F8F8/111111/png?text=Light+Screenshot">
+  <img src="https://placehold.co/1200x675/F8F8F8/111111/png?text=Light+Screenshot" alt="Screenshot">
 </picture>
 
 ## Overview
@@ -63,11 +55,11 @@ Please refer to the [Development Guide](./DEVELOPMENT.md) for more details.
 
 Licensed under the [MIT license](./LICENSE).
 
-You're free to use my code! Just make sure to <ins>remove all my personal information</ins> before publishing your website. It's awesome to see my code being useful to someone!
+You're free to use this template! Replace all placeholder content with your details before publishing.
 
 ## Star History
 
-[![Star History](https://starchart.cc/ncdai/chanhdai.com.svg?variant=adaptive)](https://starchart.cc/ncdai/chanhdai.com)
+<!-- Star history placeholder removed in template -->
 
 ## Acknowledgments
 
@@ -82,8 +74,4 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 - [Fumadocs](https://fumadocs.dev)
 - And many other open-source libraries used in `package.json`
 
-## GitAds Sponsored
-
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=ncdai/chanhdai.com@github)](https://gitads.dev/v1/ad-track?source=ncdai/chanhdai.com@github)
-
-<!-- GitAds-Verify: QICCAB4PFWV9MHUGPGPN5B2I8SAXLAOK -->
+<!-- Advertising section removed for template neutrality -->

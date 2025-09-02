@@ -1,13 +1,13 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "ncdai",
-  "homepage": "https://chanhdai.com/components",
+  "name": "your-handle",
+  "homepage": "https://example.com/components",
   "items": [
     {
       "name": "utils",
       "type": "registry:lib",
       "title": "Utility Functions",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "your-handle <hello@example.com>",
       "dependencies": [
         "clsx",
         "tailwind-merge"
@@ -46,7 +46,7 @@
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/utils.json"
+        "https://example.com/r/utils.json"
       ],
       "files": [
         {
@@ -54,18 +54,18 @@
           "type": "registry:component"
         }
       ],
-      "docs": "https://chanhdai.com/components/theme-switcher-component"
+      "docs": "https://example.com/components/theme-switcher-component"
     },
     {
       "name": "flip-sentences",
       "type": "registry:component",
       "title": "Flip Sentences",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "your-handle <hello@example.com>",
       "dependencies": [
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/utils.json"
+        "https://example.com/r/utils.json"
       ],
       "files": [
         {
@@ -78,13 +78,13 @@
       "name": "apple-hello-effect",
       "type": "registry:component",
       "title": "Apple Hello Effect",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "your-handle <hello@example.com>",
       "description": "Create a Xin chào and Hello writing effect inspired by Apple using Motion for React.",
       "dependencies": [
         "motion"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/utils.json"
+        "https://example.com/r/utils.json"
       ],
       "files": [
         {
@@ -92,19 +92,19 @@
           "type": "registry:component"
         }
       ],
-      "docs": "https://chanhdai.com/components/writing-effect-inspired-by-apple"
+      "docs": "https://example.com/components/writing-effect-inspired-by-apple"
     },
     {
       "name": "wheel-picker",
       "type": "registry:component",
       "title": "Wheel Picker",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "your-handle <hello@example.com>",
       "description": "iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.",
       "dependencies": [
         "@ncdai/react-wheel-picker"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/utils.json"
+        "https://example.com/r/utils.json"
       ],
       "files": [
         {
@@ -112,13 +112,13 @@
           "type": "registry:component"
         }
       ],
-      "docs": "https://chanhdai.com/components/react-wheel-picker"
+      "docs": "https://example.com/components/react-wheel-picker"
     },
     {
       "name": "work-experience",
       "type": "registry:component",
       "title": "Work Experience",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "your-handle <hello@example.com>",
       "description": "Displays a list of work experiences with role details and durations.",
       "dependencies": [
         "react-markdown",
@@ -128,7 +128,7 @@
         "@tailwindcss/typography"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/utils.json",
+        "https://example.com/r/utils.json",
         "collapsible",
         "separator"
       ],
@@ -152,13 +152,13 @@
           "border": "oklch(0.274 0.006 286.033)"
         }
       },
-      "docs": "https://chanhdai.com/components/work-experience-component"
+      "docs": "https://example.com/components/work-experience-component"
     },
     {
       "name": "wheel-picker-block-01",
       "type": "registry:block",
       "registryDependencies": [
-        "https://chanhdai.com/r/wheel-picker.json"
+        "https://example.com/r/wheel-picker.json"
       ],
       "files": [
         {
@@ -176,7 +176,7 @@
         "zod"
       ],
       "registryDependencies": [
-        "https://chanhdai.com/r/wheel-picker.json",
+        "https://example.com/r/wheel-picker.json",
         "form",
         "button",
         "sonner"
@@ -192,7 +192,7 @@
       "name": "work-experience-block-01",
       "type": "registry:block",
       "registryDependencies": [
-        "https://chanhdai.com/r/work-experience.json"
+        "https://example.com/r/work-experience.json"
       ],
       "files": [
         {

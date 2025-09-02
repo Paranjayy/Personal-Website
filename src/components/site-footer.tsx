@@ -14,22 +14,9 @@ export function SiteFooter() {
         </p>
 
         <p className="mb-4 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
-          Built by{" "}
-          <a
-            className="link"
-            href="https://x.com/iamncdai"
-            target="_blank"
-            rel="noopener"
-          >
-            ncdai
-          </a>
-          . The source code is available on{" "}
-          <a
-            className="link"
-            href={SOURCE_CODE_GITHUB_URL}
-            target="_blank"
-            rel="noopener"
-          >
+          Built by <span className="font-medium">Your Name</span>. The source
+          code is available on{" "}
+          <a className="link" href={SOURCE_CODE_GITHUB_URL} target="_blank" rel="noopener">
             GitHub
           </a>
           .
@@ -67,10 +54,7 @@ export function SiteFooter() {
 
             <a
               className="flex text-muted-foreground transition-colors hover:text-foreground"
-              href={
-                process.env.NEXT_PUBLIC_DMCA_URL ||
-                "https://www.dmca.com/ProtectionPro.aspx"
-              }
+              href={process.env.NEXT_PUBLIC_DMCA_URL || "https://example.com"}
               target="_blank"
               rel="noopener noreferrer"
             >

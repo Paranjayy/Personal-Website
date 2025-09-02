@@ -3,7 +3,7 @@
   "name": "work-experience",
   "type": "registry:component",
   "title": "Work Experience",
-  "author": "ncdai <dai@chanhdai.com>",
+  "author": "your-handle <hello@example.com>",
   "description": "Displays a list of work experiences with role details and durations.",
   "dependencies": [
     "react-markdown",

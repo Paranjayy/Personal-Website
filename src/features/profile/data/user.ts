@@ -1,61 +1,51 @@
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
-  gender: "male",
-  pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  firstName: "Your",
+  lastName: "Name",
+  displayName: "Your Name",
+  username: "username",
+  gender: "unspecified",
+  pronouns: "your pronouns",
+  bio: "A short one-line bio about you.",
   flipSentences: [
-    "Creating with code. Small details matter.",
+    "Building things with care.",
     "Design Engineer",
-    "Open Source Contributor",
+    "Open Source Enthusiast",
   ],
-  address: "Thanh My Tay Ward, Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "City, Country",
+  phoneNumber: "KzEyMzQ1Njc4OTA=", // +1234567890 (base64)
+  email: "aGVsbG9AZXhhbXBsZS5jb20=", // hello@example.com (base64)
+  website: "https://example.com",
+  jobTitle: "Job Title",
   jobs: [
     {
       title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
+      company: "Company Name",
+      website: "Company Website",
     },
     {
       title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      company: "Company Name",
+      website: "Company Website",
     },
   ],
   about: `
-Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hello, World! I'm a Design Engineer passionate about creating high‑performance, user‑centric software with intuitive, engaging design.
 
-With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+This starter template showcases a minimal portfolio, component registry, and blog. Replace this copy with your own story.
 
-One of my key projects, [ZaDark](https://zadark.com), enhances the Zalo experience on PC and Web, surpassing 80,000 downloads on [SourceForge](https://sourceforge.net/projects/zadark) and 15,000 active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) since 2022.
-
-I'm also the creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com) — iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. It has earned 300+ stars on [GitHub](https://github.com/ncdai/react-wheel-picker) and was selected for [Vercel Open Source Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort.
-
-Let's connect and collaborate!
+Let's connect and build something great.
   `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
-  namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3",
+  avatar: "https://placehold.co/128x128/png",
+  ogImage: "https://placehold.co/1200x630/png",
+  namePronunciationUrl: "",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "portfolio",
+    "blog",
+    "components",
+    "next.js",
+    "tailwindcss",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2025-09-03", // YYYY-MM-DD
 };
