@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+
 import { notFound } from "next/navigation";
 
 import { getAllPosts } from "@/features/blog/data/posts";

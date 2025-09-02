@@ -17,10 +17,11 @@ export async function GET() {
     .addEmail(decodeEmail(USER.email))
     .addURL(USER.website);
 
-  const photo = await getVCardPhoto(USER.avatar);
-  if (photo) {
-    card.addPhoto(photo.image, photo.mine);
-  }
+  // Note: Photo fetching disabled for static export compatibility
+  // const photo = await getVCardPhoto(USER.avatar);
+  // if (photo) {
+  //   card.addPhoto(photo.image, photo.mine);
+  // }
 
   if (USER.jobs.length > 0) {
     const company = USER.jobs[0];
