@@ -38,7 +38,7 @@ This starter template showcases a minimal portfolio, component registry, and blo
 
 Let's connect and build something great.
   `,
-  avatar: "/pfp.jpeg",
+  avatar: "/images/pfp.jpeg",
   ogImage: "https://placehold.co/1200x630/png",
   namePronunciationUrl: "",
   keywords: [
