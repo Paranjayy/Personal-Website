@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+
 import dayjs from "dayjs";
 import type { MetadataRoute } from "next";
 
